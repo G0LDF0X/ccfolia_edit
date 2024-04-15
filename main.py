@@ -3,7 +3,7 @@ from pages import *
 
 # 상태 저장
 if "page" not in st.session_state:
-    st.session_state["page"] = "이미지 변경하기"
+    st.session_state["page"] = "HOME"
 
 menus = {"HOME": home, "로그 자르기": edit_text, "이미지 변경하기": image_change,}
 with st.sidebar:
