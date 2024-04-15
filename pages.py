@@ -40,7 +40,7 @@ def home():
     st.image('imgs/img_step6.png', caption="해당 사진에서 종료 라인은 52입니다.")
     st.divider()
     st.markdown("6) [시작 라인]과 [종료 라인]을 입력하고, 코코로그 사용 시 사용했던 [기존 이미지 주소]와 [변경할 이미지 주소]를 입력하고 [편집 파일 다운로드]를 누르면, 선택했던 라인만큼 프로필 이미지가 변경된 HTML 파일을 다운로드 받을 수 있습니다.")
-    st.image('imgs/img_step7.png', caption="의도했던 텍스트만큼 잘린 걸 볼 수 있습니다.")
+    st.image('imgs/img_step7.png', caption="의도했던 텍스트만큼 이미지가 수정되어 있는 걸 볼 수 있습니다.")
 
 
 def edit_text():
